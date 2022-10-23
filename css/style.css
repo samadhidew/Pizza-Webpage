@@ -1,0 +1,158 @@
+h1 {
+  font-family: cursive;
+  font-size: 46px;
+}
+
+h2 {
+  font-family: cursive;
+  font-size: 38px;
+}
+
+h3 {
+  font-family: cursive;
+  font-size: 24px;
+}
+
+h4 {
+  font-family: cursive;
+  font-size: 24px;
+  text-align: center;
+}
+p,
+li,
+a {
+  font-size: 1.4em; /*20px*/
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+body {
+  /*background-image:*/
+
+  background-color: red;
+}
+
+header {
+  width: 70%;
+  height: 450px;
+  background-image: url("../img/images.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+header > div > a > img {
+  width: auto;
+  height: 125px;
+}
+
+header > nav > ul > {
+  list-style: none;
+  padding: 0px;
+}
+
+header > nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4em;
+  color: white;
+}
+a:link {
+  color: rgb(87, 217, 100);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(229, 241, 229);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(216, 33, 94);
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+section {
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2%;
+}
+
+section > h4 {
+  text-align: center;
+  padding-top: 1px;
+}
+
+section > h2 {
+  text-align: center;
+}
+
+section + section {
+  background-color: white;
+}
+
+section + section + section {
+  background-color: #f4f4f4;
+}
+
+section + section + section > figure {
+  margin: 0px;
+  width: 80%;
+  height: auto;
+}
+
+section + section + section > figure > img {
+  width: 100%;
+  height: auto;
+}
+
+section + section + section > figure > img > {
+  font-size: 1em;
+  font-family: sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+section + section + section > p {
+  text-align: center;
+}
+
+section + section + section > blockquote {
+  font-size: 1em;
+  font-family: sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-weight: 600;
+}
+
+footer {
+  width: 70%;
+  padding: 2%;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+  background-color: #0e0e0e;
+}
+
+textarea {
+  width: 500px;
+  height: 200px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+}
